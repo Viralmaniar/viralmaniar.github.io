@@ -39,8 +39,9 @@ This tool allows to check speculative execution side-channel attacks that affect
 
 ## PeekABoo
 PeekABoo tool can be used during internal penetration testing when a user needs to enable Remote Desktop on the targeted machine. It uses PowerShell remoting to perform this task.  Note: Remote desktop is disabled by default on all Windows operating systems. 
+![PeekABoo](/assets/images/tools/Peek-A-Boo.PNG){: .align-center}
 
 ## SMWYG-Show-Me-What-You-Got
 This tool allows you to perform OSINT and reconnaissance on an organisation or an individual. It allows one to search 1.4 Billion clear text credentials which was dumped as part of BreachCompilation leak. This database makes finding passwords faster and easier than ever before.
-
+![SMWYG](/assets/images/tools/SMWYG.PNG){: .align-center}
 
