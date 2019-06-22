@@ -1,0 +1,69 @@
+---
+layout: single
+classes: wide
+author_profile: true
+read_time: true
+share: true
+related: true
+title:  "Internal Infrastructure Pentest - List of Commands"
+date:   2019-06-22 15:29:10 +1000
+categories:
+  - Internal Pentest
+  - Internal Infrastructure Pentest
+  - Network Pentest
+tags:
+  - Windows Security
+  - Cheatsheet
+  - Windows commands
+  - Active Directory Hacking
+---
+
+
+<B> Commands for Initial Investigation </B>
+- tasklist
+  - TASKLIST
+  - TASKLIST /M
+  - TASKLIST /V /FO CSV
+  - TASKLIST /SVC /FO LIST
+  - TASKLIST /APPS /FI "STATUS eq RUNNING"
+  - TASKLIST /M wbem*
+  - TASKLIST /S system /FO LIST
+  - TASKLIST /S system /U domain\username /FO CSV /NH
+  - TASKLIST /S system /U username /P password /FO TABLE /NH
+  - TASKLIST /FI "USERNAME ne NT AUTHORITY\SYSTEM" /FI "STATUS eq running"
+
+- ver
+- ipconfig	
+- systeminfo	
+- net time	
+- netstat	
+- whoami	
+- net start
+- qprocess	
+- query
+
+<B> Commands for Reconnaissance </B>
+
+- dir
+- net view
+  - net view /all > hosts.txt
+- ping
+- net use
+- type
+- net user
+  - net user /domain > users.txt
+- net localgroug
+- net group
+  - net group "Domain Admins"
+- net config
+- net share
+
+<B> Commands to Spread Malware in a Network.</B>
+
+- at	
+- reg	
+- wmic	
+- wusa	
+- netsh advfirewall	
+- sc	
+- rundll32	
