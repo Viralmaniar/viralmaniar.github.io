@@ -1,3 +1,20 @@
+---
+layout: single
+classes: wide
+author_profile: true
+read_time: true
+share: true
+related: true
+title:  "Internal Infrastructure Pentest - Nessus Installation"
+date:   2019-07-07 15:32:00 +1000
+categories:
+  - Internal Pentest
+  - Internal Infrastructure Pentest
+  - Network Pentest
+  - Active Directory Hacking
+tags:
+  - Nessus
+---
 <pre>
 - sudo wget http://downloads.nessus.org/nessus3dl.php?file=Nessus-6.11.1-debian6_amd64.deb
 - sudo dpkg -i Nessus-6.11.1-debian6_amd64.deb
