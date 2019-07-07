@@ -16,7 +16,7 @@ tags:
   - UAC
   - UAC Bypass
 ---
-
+<pre>
 •	Windows 7 UAC whitelist, http://www.pretentiousname.com/misc/win7_uac_whitelist2.html
 •	Malicious Application Compatibility Shims, https://www.blackhat.com/docs/eu-15/materials/eu-15-Pierce-Defending-Against-Malicious-Application-Compatibility-Shims-wp.pdf
 •	Junfeng Zhang from WinSxS dev team blog, https://blogs.msdn.microsoft.com/junfeng/
@@ -37,4 +37,4 @@ ii.	https://tyranidslair.blogspot.ru/2017/05/reading-your-way-around-uac-part-2.
 iii.	https://tyranidslair.blogspot.ru/2017/05/reading-your-way-around-uac-part-3.html
 •	Research on CMSTP.exe, https://msitpros.com/?p=3960
 •	https://github.com/hfiref0x/UACME
-
+</pre>
