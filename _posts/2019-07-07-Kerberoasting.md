@@ -1,3 +1,22 @@
+---
+layout: single
+classes: wide
+author_profile: true
+read_time: true
+share: true
+related: true
+title:  "Internal Infrastructure Pentest - Kerberoasting"
+date:   2019-07-07 15:30:10 +1000
+categories:
+  - Internal Pentest
+  - Internal Infrastructure Pentest
+  - Network Pentest
+tags:
+  - Kerberoasting
+  - Windows Security
+  - Active Directory Hacking
+  - Kerberos
+---
 <pre>
 - Firstly purge all the tickets
   - klist purge
