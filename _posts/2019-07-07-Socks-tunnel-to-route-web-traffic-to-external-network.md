@@ -1,3 +1,22 @@
+---
+layout: single
+classes: wide
+author_profile: true
+read_time: true
+share: true
+related: true
+title:  "Internal Infrastructure Pentest - Socks Tunnel"
+date:   2019-07-07 16:15:00 +1000
+categories:
+  - Internal Pentest
+  - Internal Infrastructure Pentest
+  - Network Pentest
+  - Active Directory Hacking
+tags:
+  - SOCKS 
+  - SOCKS Tunnel
+  - SOCKS Proxy
+---
 - SOCKS 5 proxy tunnel:
 
   - ssh -D 1337 -f -C -q -N user@victimip.com
