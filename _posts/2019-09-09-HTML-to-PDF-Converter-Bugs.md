@@ -14,7 +14,11 @@ tags:
   - AppSec
   - HTML2PDF
 ---
-<pre>
+
+Below are some of the vulnerability reports in the HTML to PDF converters or PDF parsers. 
+
+- https://hackerone.com/reports/520717
+- https://medium.com/@armaanpathan/pdfreacter-ssrf-to-root-level-local-file-read-which-led-to-rce-eb460ffb3129
 - https://ysamm.com/?p=280
 - https://www.noob.ninja/2017/11/local-file-read-via-xss-in-dynamically.html
 - https://www.virtuesecurity.com/kb/wkhtmltopdf-file-inclusion-vulnerability-2/
@@ -24,4 +28,4 @@ tags:
 - https://polict.net/blog/CVE-2018-17057
 - https://mike-n1.github.io/SSRF_P4toP2
 - https://buer.haus/2017/06/29/escalating-xss-in-phantomjs-image-rendering-to-ssrflocal-file-read/
-</pre>
+
