@@ -1,18 +1,18 @@
 ---
 layout: single
 classes: wide smallfont
-title:  "Presentations"
 permalink: /talks/
 ---
 
 # Presentations
 ### **BlackHat USA 2019**: PowerShell-RAT 
 **Topic**: Malware, PowerShell, Remote Access Trojan <BR>
-**Links**: [Abstract](https://www.blackhat.com/us-19/presenters/Viral-Maniar.html) | [Slides](https://speakerdeck.com/viralmaniar/powershell-rat-blackhat-usa-2019)
+**Links**: [Abstract](https://www.blackhat.com/us-19/presenters/Viral-Maniar.html) | [Slides](https://speakerdeck.com/viralmaniar/powershell-rat-blackhat-usa-2019) | [Tool](https://github.com/Viralmaniar/Powershell-RAT)
 
 ### **ROOTCON 13**: z3r0 to h3r0 - Targeting Crown Jewels over the Internet  
 **Topic**: External Penetration Testing, OSINT, Information Gathering, EDR <BR>
-**Links**: [Abstract](https://www.rootcon.org/html/archives/rc13#z3r0_to_h3r0) | [Slides (PDF)](https://media.rootcon.org/ROOTCON%2013/Talks/z3r0%20to%20h3r0%20-%20Targeting%20Crown%20Jewels%20over%20the%20Internet.pdf) | [Video Recording](https://www.youtube.com/watch?v=qCJFUcF38NM)
-
-
-
+**Links**: [Abstract](https://www.rootcon.org/html/archives/rc13#z3r0_to_h3r0) | [Slides (PDF)](https://media.rootcon.org/ROOTCON%2013/Talks/z3r0%20to%20h3r0%20-%20Targeting%20Crown%20Jewels%20over%20the%20Internet.pdf) | [Video Recording](https://www.youtube.com/watch?v=qCJFUcF38NM) | [Slides (Speakerdeck)](https://speakerdeck.com/viralmaniar/z3r0-to-h3r0-targeting-crown-jewels-over-the-internet)
+  
+### **(ISC)2 - Melbourne Chapter**: PowerShell-RAT
+**Topic**: Malware, PowerShell, Remote Access Trojan <BR> 
+**Links**: [Slides (Speakerdeck)](https://speakerdeck.com/viralmaniar/powershell-rat-isc-2-melbourne-chapter-16th-sep-19-meeting-information-security) | [Tool](https://github.com/Viralmaniar/Powershell-RAT)
