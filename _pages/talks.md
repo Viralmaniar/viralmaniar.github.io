@@ -1,7 +1,7 @@
 ---
 layout: single
 classes: wide smallfont
-title:  "Presentations and external blogs"
+title:  "Presentations"
 permalink: /talks/
 ---
 
