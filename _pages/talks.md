@@ -11,7 +11,7 @@ permalink: /talks/
 **Links**: [Abstract](https://www.blackhat.com/us-19/presenters/Viral-Maniar.html) | [Slides](https://speakerdeck.com/viralmaniar/powershell-rat-blackhat-usa-2019)
 
 ### **ROOTCON 13**: z3r0 to h3r0 - Targeting Crown Jewels over the Internet  
-**Topic**: External Penetration Testing, OSINT, Information Gathering, EDR etc
+**Topic**: External Penetration Testing, OSINT, Information Gathering, EDR <BR>
 **Links**: [Abstract](https://www.rootcon.org/html/archives/rc13#z3r0_to_h3r0) | [Slides (PDF)](https://media.rootcon.org/ROOTCON%2013/Talks/z3r0%20to%20h3r0%20-%20Targeting%20Crown%20Jewels%20over%20the%20Internet.pdf) | [Video Recording](https://www.youtube.com/watch?v=qCJFUcF38NM)
 
 
