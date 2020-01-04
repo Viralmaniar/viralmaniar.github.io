@@ -6,6 +6,10 @@ main:
     url: /categories/
   - title: "Tags"
     url: /tags/
+  - title: "Tools"
+    url: /tools/
+  - title: "Presentations"
+    url: /talks/
   # - title: "Quick-Start Guide"
   # url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
