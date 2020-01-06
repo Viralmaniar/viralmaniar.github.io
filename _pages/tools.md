@@ -45,3 +45,8 @@ PeekABoo tool can be used during internal penetration testing when a user needs 
 This tool allows you to perform OSINT and reconnaissance on an organisation or an individual. It allows one to search 1.4 Billion clear text credentials which was dumped as part of BreachCompilation leak. This database makes finding passwords faster and easier than ever before.
 ![SMWYG](/assets/images/tools/SMWYG.PNG){: .align-center}
 
+## XposedOrNot
+XposedOrNot (XoN) tool is to search an aggregated repository of xposed passwords comprising of ~850 million real time passwords. Usage of such compromised passwords is detrimental to individual account security.
+![XposedOrNot](/assets/images/tools/Xposed.PNG){: .align-center}
+
+
