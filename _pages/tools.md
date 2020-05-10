@@ -53,5 +53,6 @@ XposedOrNot (XoN) tool is to search an aggregated repository of xposed passwords
 HiveJack tool can be used during internal penetration testing to dump Windows credentials from an already-compromised host. It allows one to dump SYSTEM, SECURITY and SAM registry hives and once copied to the attacker machines provides an option to delete these files to clear the trace.
 
 Often, this is a repetitive process, once an attacker gets system-level access on the compromised host dumping hives values is the next step. Time is very valuable when it comes to internal penetration testing. HiveJack will save you plenty of time when it comes to dumping and deleting the files. You'll never have to remember the command to perform the actions.
-![HiveJack](/assets/images/tools/HiveJack.PNG){: .align-center}
+![HiveJack](/assets/images/tools/HiveJack.PNG)
+{: .align-center}
 
