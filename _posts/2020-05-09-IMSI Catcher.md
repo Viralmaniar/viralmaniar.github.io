@@ -71,9 +71,10 @@ Here is the guide to create the IMSI catcher with a cheap SDR dongle:
  airprobe_rtlsdr.py -f 943400000 # this is the same program called grgsm_livemon
  
  Now, change the frequency and stop it when you have output like in the console behind the gui:
- 4c 69 6b 65 56 69 64 65 6f 3d 53 65 6e 64 63 68 6f 63 6f 6c 61 74 65
+ <I>
+ 4c 69 6b 65 56 69 64 65 6f 3d 53 65 6e 64 63 68 6f 63 6f 6c 61 74 65 <BR>
  00 6b 65 6c 64 2e 6e 6f 72 6d 61 6e 40 67 6d 61 69 6c 2e 63 6f 6d 00
- 
+ </I>
  Watch terminal 1 and wait. The TMSI/IMSI numbers should appear shortly
  
  If nothing appears after 1 min, change the frequency.
