@@ -3,6 +3,7 @@ layout: single
 classes: wide smallfont
 permalink: /talks/
 ---
+
 ### **DEF CON 28 2020**: Phirautee
 **Topic**: Malware, PowerShell, Ransomware <BR>
 **Links**: [Abstract](https://defcon.org/html/defcon-safemode/dc-safemode-demolabs.html#Phirautee) | [Slides](https://media.defcon.org/DEF%20CON%2028/DEF%20CON%20Safe%20Mode%20demo%20labs/DEF%20CON%20Safe%20Mode%20Demo%20Labs%20-%20Viral%20Maniar%20-%20Phirautee.pdf) | [Tool](https://github.com/Viralmaniar/Phirautee)
