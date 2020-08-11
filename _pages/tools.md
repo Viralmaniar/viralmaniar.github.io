@@ -59,6 +59,6 @@ Often, this is a repetitive process, once an attacker gets system-level access o
 A proof of concept crypto virus to spread user awareness about attacks and implications of ransomwares. Phirautee is written purely using PowerShell and does not require any third-party libraries. This tool steals the information, holds an organisation’s data to hostage for payments or permanently encrypts/deletes the organisation data.
 
 Phirautee is a Living off the Land (LotL) ransomware which means it utilises legit powershell commands and operations to work against the operating system.
-![Phirautee](/assets/images/tools/phirautee.PNG)
+![Phirautee](/assets/images/tools/phirautee.png)
 {: .align-center}
 
