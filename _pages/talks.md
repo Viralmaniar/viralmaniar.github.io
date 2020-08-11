@@ -2,6 +2,10 @@
 layout: single
 classes: wide smallfont
 permalink: /talks/
+title: Talks & Presentations
+author_profile: true
+toc: true
+toc_sticky: true
 ---
 
 ### **DEF CON 28 2020**: Phirautee
