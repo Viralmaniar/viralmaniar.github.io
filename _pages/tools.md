@@ -54,5 +54,11 @@ HiveJack tool can be used during internal penetration testing to dump Windows cr
 
 Often, this is a repetitive process, once an attacker gets system-level access on the compromised host dumping hives values is the next step. Time is very valuable when it comes to internal penetration testing. HiveJack will save you plenty of time when it comes to dumping and deleting the files. You'll never have to remember the command to perform the actions.
 ![HiveJack](/assets/images/tools/HiveJack.PNG)
+
+## Phirautee - Ransomware using Living off the Land (LotL) Tactics
+A proof of concept crypto virus to spread user awareness about attacks and implications of ransomwares. Phirautee is written purely using PowerShell and does not require any third-party libraries. This tool steals the information, holds an organisation’s data to hostage for payments or permanently encrypts/deletes the organisation data.
+
+Phirautee is a Living off the Land (LotL) ransomware which means it utilises legit powershell commands and operations to work against the operating system.
+![Phirautee](/assets/images/tools/phirautee.PNG)
 {: .align-center}
 
