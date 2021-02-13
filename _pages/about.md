@@ -11,7 +11,7 @@ toc_sticky: true
 
 My name is Viral Maniar and I am passionate about the field of cyber and information security. I am based in Melbourne, Australia.
 
-I am a dedicated Principal Security Consultant and a Penetration Tester at Threat Intelligence Pty Ltd in Australia with over 7 years of experience in information security and management. Prior to joining Threat Intelligence, I held senior positions at KPMG and Ernst & Young. I have provided security consulting services including infrastructure (internal - external), application penetration testing, vulnerability assessments, wireless penetration testing, social engineering, red team engagements, API testing, Thick & Thin client testing and cloud architecture security reviews to numerous clients across various industries in the APAC region.
+I am a dedicated Principal Security Consultant and a Penetration Tester at Preemptive Cyber Security Pty Ltd in Australia with over 9 years of experience in information security and management. Prior to working for RiskIQ, I held senior positions at Threat Intelligence, KPMG and Ernst & Young. I have provided security consulting services including infrastructure (internal - external), application penetration testing, vulnerability assessments, wireless penetration testing, social engineering, red team engagements, API testing, Thick & Thin client testing and cloud architecture security reviews to numerous clients across various industries in the APAC region.
 
 I was involved with the RISC (RMIT Information Security Collective) Club while at University and worked as a Developer for firewall security at Biarri Networks where I developed a visualisation algorithm to solve the issue of firewall rules management. 
 
@@ -30,7 +30,7 @@ You'll find plenty of reference guides and material on various topics in the fie
 - External Infrastructure Penetration Testing
 - Red Team Engagements
 - Hardware Hacking
-- Social Engineering Engagements / Phishing Campigns
+- Social Engineering Engagements
 - Thick & Thing Client Testing
 - OSINT (Open Source Intelligence Gathering)
 
