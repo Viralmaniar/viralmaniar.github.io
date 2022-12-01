@@ -147,26 +147,32 @@ For this use-case we will run a wannacry ransomware binary file on the Windows b
 
 Additionally, the platform will automatically queries Active Directory for fetching more information on the impacted user. 
 
-Let’s run a Wannacry binary file on one of the Windows end-points: 
 ![19](https://user-images.githubusercontent.com/3501170/205014829-78ffd4db-3198-46e5-9238-2196bf3aa20b.png)
 
-Ransomware execution was detected on the end-point: 
+Let’s run a Wannacry binary file on one of the Windows end-points: 
+
 ![20](https://user-images.githubusercontent.com/3501170/205014838-ab9e8913-64ec-4e44-b58d-d1175b75f969.png)
 
-Alerts have been raised in the Elastic SIEM: 
+Ransomware execution was detected on the end-point: 
+
 ![21](https://user-images.githubusercontent.com/3501170/205014842-19074611-27d3-4204-b0e9-11f88ba3fe84.png)
 
-An automated playbook is initiated to log an incident:
+Alerts have been raised in the Elastic SIEM: 
+
 ![22](https://user-images.githubusercontent.com/3501170/205014850-1af0da07-609f-4d91-9598-b3dd41e478e0.png)
 
-An incident ticket is now created for an analyst with all relevant information on the binary file from VirusTotal and Hybrid Analysis as an enrichment to have context around the incident for further investigation:
+An automated playbook is initiated to log an incident:
+
 ![23](https://user-images.githubusercontent.com/3501170/205014857-1be79cf2-2ea5-44b4-a91a-4e9012566b55.png)
 
 
 ![24](https://user-images.githubusercontent.com/3501170/205014866-6ac5d351-8ee9-46da-a40c-ec1e854e4718.png)
 
-Malware hash successfully submitted to the Fortigate firewall: 
+An incident ticket is now created for an analyst with all relevant information on the binary file from VirusTotal and Hybrid Analysis as an enrichment to have context around the incident for further investigation:
+
 ![25](https://user-images.githubusercontent.com/3501170/205014874-41fd5cc0-08ca-4735-be85-771bc9385017.png)
+
+Malware hash successfully submitted to the Fortigate firewall: 
 
 # Conclusion:
 
