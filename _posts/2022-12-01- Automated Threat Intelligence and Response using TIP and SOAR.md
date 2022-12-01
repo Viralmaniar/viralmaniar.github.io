@@ -20,7 +20,8 @@ tags:
 Threat Intelligence products and services deliver knowledge, information and data about cybersecurity threats and other cybersecurity-related issues. The output of these products and services aim to provide or assist in the curation of information about the identities, motivations, characteristics and methods of threats, commonly referred to as tactics, techniques and procedures (TTPs). The intent is to enable better decision making and improve security technology capabilities to reduce risk and the chance of being compromised.
 
 By combining threat intelligence with internal telemetry, you can begin to get an understanding of not only what is happening within your network, but can also help you establish a proactive stance and be informed and better prepared for potential threats or blind spots in your defense. 
-What is a SOAR?
+
+# What is a SOAR?
 
 Gartner defines SOAR as solutions that combine incident response, orchestration and automation, and threat intelligence platform management capabilities in a single solution. SOAR tools can be used for many security operations tasks, including: 
 
