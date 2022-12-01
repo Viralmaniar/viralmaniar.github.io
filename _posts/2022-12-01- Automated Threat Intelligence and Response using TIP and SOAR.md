@@ -165,14 +165,15 @@ An automated playbook is initiated to log an incident:
 
 ![23](https://user-images.githubusercontent.com/3501170/205014857-1be79cf2-2ea5-44b4-a91a-4e9012566b55.png)
 
+An incident ticket is now created for an analyst with all relevant information on the binary file from VirusTotal and Hybrid Analysis as an enrichment to have context around the incident for further investigation:
 
 ![24](https://user-images.githubusercontent.com/3501170/205014866-6ac5d351-8ee9-46da-a40c-ec1e854e4718.png)
 
-An incident ticket is now created for an analyst with all relevant information on the binary file from VirusTotal and Hybrid Analysis as an enrichment to have context around the incident for further investigation:
+Malware hash successfully submitted to the Fortigate firewall: 
 
 ![25](https://user-images.githubusercontent.com/3501170/205014874-41fd5cc0-08ca-4735-be85-771bc9385017.png)
 
-Malware hash successfully submitted to the Fortigate firewall: 
+
 
 # Conclusion:
 
