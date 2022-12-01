@@ -30,6 +30,8 @@ You'll find plenty of reference guides and material on various topics in the fie
 - Social Engineering Engagements
 - Thick & Thing Client Testing
 - OSINT (Open Source Intelligence Gathering)
+- Threat Hunting & Threat Intelligence related methods
+- Security Automation
 
 ## How do I contact you?
 
