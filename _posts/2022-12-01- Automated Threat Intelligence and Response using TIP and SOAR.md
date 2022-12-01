@@ -14,7 +14,6 @@ tags:
   - TIP
   - SOAR
 ---
-# Automated Threat Intelligence and Response using TIP and SOAR
 
 # What is a TIP?
 
@@ -46,11 +45,23 @@ Cyber threat intelligence comes in many forms but can largely be divided into hu
 Following diagram shows details of human readable vs machine readable threat intelligence types in detail:
 ![image](https://user-images.githubusercontent.com/3501170/205014442-396780f7-1b96-4c51-bd96-947bdb857670.png)
 
+ Now that we looked at what TIP, SOAR and types of threat intelligence, we will explore some use-cases to perform automated threat response:
 
+    1. Credential Dumping 
+    2. Brute Force Attempts
+    3. Ransomware Alert and Analysis
 
+Let’s explore each of these incidents: 
+
+# Automated Protection against Credential Dumping
+
+In this use-case we will try to attack a Windows end-point with Mimikatz to perform credential dumping attack that will extract password hashes and plaintext to further gain control in the network. The end-point is running a Taegis XDR to collect logs. The Cyber Fusion platform will receive an automated alert from Taegis on the Mimikatz activities. Lastly from the automated threat response perspective the Cyber Fusion platform will isolate the Windows host from the network to prevent lateral movement and further compromise of the end-point. 
 
 ![2](https://user-images.githubusercontent.com/3501170/205014667-a96818ca-5714-47d2-9277-c2dd19b7283e.png)
+
+Let’s run Mimikatz on the end-point: 
 ![3](https://user-images.githubusercontent.com/3501170/205014691-72716815-e71f-4f45-af2c-109449aa7f16.png)
+
 ![4](https://user-images.githubusercontent.com/3501170/205014693-ed051fb5-7cee-4123-8534-b2c644108582.png)
 ![5](https://user-images.githubusercontent.com/3501170/205014739-dcca8238-8007-4d03-a3c5-af5e7548811c.png)
 ![6](https://user-images.githubusercontent.com/3501170/205014747-8d9e50ab-2388-40b0-a87b-9270a10fe664.png)
