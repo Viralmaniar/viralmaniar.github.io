@@ -77,7 +77,8 @@ As the playbook has been triggered successfully we can see the result on our Win
 ![6](https://user-images.githubusercontent.com/3501170/205014747-8d9e50ab-2388-40b0-a87b-9270a10fe664.png)
 
 By automating the response against complex and diverse threats, playbooks prove to be effective at minimising response time thereby reducing overall risk exposure.
-Automated Protection against Active Directory Password Bruteforce Attempts
+
+# Automated Protection against Active Directory Password Bruteforce Attempts
 
 A bruteforce attack uses a password list, which contains the credentials that can be used to bruteforce service logins. This attack automatically and systematically attempts to guess the correct username and password combination for a service. Its goal is to find valid logins and leverage them to gain access to a network. 
 
