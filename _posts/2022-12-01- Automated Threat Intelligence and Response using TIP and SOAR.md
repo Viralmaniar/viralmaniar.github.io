@@ -5,7 +5,7 @@ author_profile: true
 read_time: true
 share: true
 related: true
-title:  "Automated Threat Intelligence and Response using TIP and SOAR."
+title:  "Automated Threat Intelligence and Response using TIP and SOAR"
 date:   2022-12-1 00:04:00 +1000
 categories:
   - Threat Intelligence
@@ -45,5 +45,4 @@ Cyber threat intelligence comes in many forms but can largely be divided into hu
 
 Following diagram shows details of human readable vs machine readable threat intelligence types in detail:
 
-https://media-exp1.licdn.com/dms/image/D5612AQHFB66J_z-E9A/article-inline_image-shrink_1500_2232/0/1669787035349?e=1675296000&v=beta&t=Qa4TZ-lB62PhseLtZN6R16B9RiOuBLOoqaHh-9xgmoM
 
