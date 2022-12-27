@@ -19,4 +19,7 @@ Over the last few days, I observed targeted campaigns against Microsoft brand. W
 
 Here’s the investigation canvas for one of the malicious domains mapped to a diamond 💎 model -update[.]microsoftlab[.]top
 
+![image](https://user-images.githubusercontent.com/3501170/209633673-653f0df9-6f78-4365-9da2-4663687483c3.png)
+
+
 Let’s help cyber defenders visually investigate and collect critical intelligence on malicious infrastructure. 🕵️‍♀️🕵️‍♂️
