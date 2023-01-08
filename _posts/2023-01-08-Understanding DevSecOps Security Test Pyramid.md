@@ -17,9 +17,9 @@ tags:
   - DevSecOps
 ---
 
-Happy Weekend and Happy New Year, Readers!
+Happy New Year, readers! 
 
-I hope everyone had a wonderful time off with their family and friends during the holiday season. 
+I hope you had a wonderful time off with your loved ones during the holiday season. As we begin a new year, let's all strive to make it our best one yet. Here's to a great weekend and an even better year ahead!
 
 
 
