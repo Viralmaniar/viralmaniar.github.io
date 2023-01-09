@@ -21,8 +21,18 @@ Happy New Year, readers!
 
 I hope you had a wonderful time off with your loved ones during the holiday season. As we begin a new year, let's all strive to make it our best one yet. Here's to a great weekend and an even better year ahead!
 
-
 There are several options that can address both security and the needs of the delivery team. 
+
+The security testing pyramid is a concept that helps organisations understand how to balance their testing efforts between different levels of the software development lifecycle. At the top of the pyramid are high-level tests that are typically more expensive and time-consuming to implement, such as penetration testing and other types of security assessments. As you move down the pyramid, the tests become progressively less expensive and more granular, culminating in unit tests and other low-level tests at the bottom.
+
+The security testing pyramid is an important concept in DevSecOps, as it helps organisations understand how to effectively balance the need for thorough testing with the need to control costs. By placing an emphasis on low-level tests, organizations can identify and address potential issues early in the development process, which can help reduce the overall cost of testing and improve the security of their systems.
+
+However, it's important to note that the security testing pyramid is not a one-size-fits-all approach. The specific mix of tests that an organisation uses will depend on a variety of factors, including the complexity of the system being developed, the level of risk involved, and the resources available to the organization. By carefully planning and organizing their testing efforts, organisations can ensure that they are effectively balancing the needs of their specific environment with the overall goals of the DevSecOps process.
+
+In this blog post we will explore the following:
+
+![image](https://user-images.githubusercontent.com/3501170/211244895-af404a5a-8a17-4c7d-9b43-46c221f0cd4f.png)
+
 
 Bottom of the pyramid:
 
