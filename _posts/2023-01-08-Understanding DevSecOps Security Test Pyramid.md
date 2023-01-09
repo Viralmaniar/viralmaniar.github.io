@@ -48,18 +48,48 @@ By incorporating network scanning into a DevSecOps workflow, organisations can e
 
 In addition to using dedicated scanning tools, organisations can also incorporate network scanning into their continuous integration and delivery (CI/CD) pipeline. This can help ensure that only secure and compliant infrastructure is deployed in production environments.
 
-**6. IAST - Interactive Application Security Testing:**
+**6. IAST - Interactive Application Security Testing:** IAST is a technique used to identify and address security vulnerabilities in web applications. It involves injecting code into the application to monitor its behavior and identify potential security issues.
 
-**7. RASP - Runtime Application Self Protection:**
+IAST is a powerful tool for identifying security issues in web applications. Unlike other testing techniques, such as Static Application Security Testing (SAST) or Dynamic Application Security Testing (DAST), IAST provides real-time visibility into the application's behavior. This makes it particularly effective at identifying issues that may not be detectable through other means.
 
-**8. DAST - Dynamic Application Security Testing:**
+To perform IAST, a testing tool is typically integrated into the application's runtime environment. This allows the tool to monitor the application's behavior as it is being used. The tool looks for patterns or behaviors that may indicate a security vulnerability, such as input validation issues or cross-site scripting (XSS) attacks. If a potential issue is identified, the tool will generate a report indicating the issue and providing guidance on how to fix it.
 
-Top of the pyramid:
+IAST is an important part of a DevSecOps workflow. By integrating IAST into the development process, organisations can identify and address security issues early in the development cycle. This helps to reduce the risk of security incidents and improves the overall security posture of the application.
 
-**9. Penetration Testing:**
+**7. RASP - Runtime Application Self Protection:** RASP is a security technology that helps protect web applications from attacks. It works by integrating security capabilities into the application's runtime environment, allowing it to monitor and protect itself in real-time. 
 
-**10. Bug Bounty Programs:**
+RASP is designed to be highly effective at detecting and preventing a wide range of attacks, including injection attacks, cross-site scripting (XSS) attacks, and other types of malicious activity. It works by analysing the application's behavior in real-time and identifying patterns or behaviors that may indicate an attack. If an attack is detected, RASP can take a variety of actions to protect the application, such as blocking the attack, alerting security personnel, or logging the incident.
 
-**11. Peer Reviews:**
+One of the key benefits of RASP is that it provides protection against attacks that may not be detectable through other means. Because it is integrated into the application's runtime environment, RASP has visibility into the application's behavior that is not available to other security technologies. This makes it an effective tool for protecting against zero-day vulnerabilities and other types of unknown threats.
+
+**8. DAST - Dynamic Application Security Testing:** DAST is a technique used to identify security vulnerabilities in web applications. It involves analysing the application's behavior during runtime, typically by simulating attacks and other types of malicious activity.
+
+Unlike Static Application Security Testing (SAST), which analyzes source code to identify vulnerabilities, Dynamic Application Security Testing (DAST) uses the black box testing methodology to assess vulnerabilities from the outside. This means that DAST does not have access to the application's source code, and instead relies on observing the application's behavior during runtime to identify potential issues.
+
+Top of the pyramid: The top of the pyramid is not well integrated into the CI/CD pipeline
+
+**9. Penetration Testing:** Web application penetration testing is a technique used to identify and address security vulnerabilities in web applications. It involves simulating a cyber attack against the application in order to identify weaknesses and assess the application's resilience to such attacks. Pen testing can be an effective way to identify and address vulnerabilities that may not be detectable through other means, such as automated security testing tools. It is typically performed by experienced security professionals who have a deep understanding of different types of attacks and how to identify and exploit vulnerabilities. By conducting regular web application penetration tests, organisations can improve the security of their applications and reduce the risk of security incidents.
+
+**10. Bug Bounty Programs:** A bug bounty program is a way for organisations to incentivise security researchers and other individuals to identify and report security vulnerabilities in various web application products or services. These programs typically offer a reward, or "bounty," to individuals who are able to identify and report valid security issues.
+
+To create a bug bounty program, an organisation should first determine the scope of the program. This might include specific products or services that are covered, as well as any exclusions or limitations. The organisation should also establish clear guidelines for what types of vulnerabilities are eligible for a bounty, and how the bounty will be paid out. It is also important to establish clear communication channels through which researchers can report vulnerabilities, as well as a process for reviewing and triaging reports.
+
+Once the program is established, the organisation should promote it widely to attract the attention of security researchers and other potential participants. This might include making the program known through social media, industry forums, and other channels. It is also a good idea to establish relationships with key individuals and organisations in the security community to help spread the word about the program.
+
+A bug bounty program can be an effective way for organisations to improve the security of their products or services. By incentivising individuals to identify and report vulnerabilities, organisations can proactively address potential security issues and improve the overall security posture of their systems.
+
+**11. Peer Reviews:** Peer reviews are an important part of a DevSecOps workflow, as they can help ensure the quality and security of code being developed. Peer reviews involve having other team members review code before it is merged into the main codebase. This can help identify issues such as bugs, security vulnerabilities, and other problems that may not be detectable through automated testing tools.
+
+Peer reviews can also help improve the overall quality of the codebase by ensuring that code adheres to coding standards and best practices. This can make the code easier to maintain and enhance over time.
+
+In addition to identifying technical issues, peer reviews can also help improve communication and collaboration within the development team. By providing an opportunity for team members to discuss code and share knowledge, peer reviews can help foster a culture of continuous learning and improvement.
+
+Incorporating peer reviews into a DevSecOps workflow can help organisations build and maintain high-quality, secure code. By encouraging team members to review and critique each other's work, organisations can improve the quality and security of their systems and reduce the risk of errors and security incidents.
+
+**Lets talk about Cost:**
+
+
+To reduce costs, organisations should strive to eliminate duplication in their testing efforts. If a test at a higher level fails, but there is no corresponding test at a lower level, it may be useful to add a lower-level test (such as a unit test) to validate the issue. Once the lower-level test has been successfully implemented and run, the higher-level test can be removed from the testing process. This helps to minimise costs by shifting security tests to the lower levels of the testing pyramid, where they are typically less expensive to implement. By carefully planning and organising their testing efforts, organisations can effectively balance the need for thorough testing with the need to control costs.
+
 
 
