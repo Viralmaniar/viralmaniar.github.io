@@ -52,4 +52,12 @@ Moreover, they have disclosed the names of 41 business websites that were shut d
 
 Details of various organisations been targated as part of the operation Jentik
 
+The motives behind these attacks are varied and complex, but they may include financial gain, corporate espionage, or even political influence. Whatever the motivation may be, it is clear that these groups pose a significant threat to Australian businesses and must be dealt with accordingly.
 
+The consequences of a successful cyber attack can be devastating. Not only can it result in the loss of sensitive data, but it can also damage a business's reputation and cause significant financial harm.
+
+So what can we do to protect ourselves? The first step is to acknowledge that the threat is real and take it seriously. This means implementing strong cybersecurity measures and investing in the right tools and technologies.
+
+But it's not just about technology. It's also about creating a culture of security within our businesses. This means educating our employees on the risks and best practices for staying safe online.
+
+At the end of the day, the cyber threat landscape is constantly evolving. But by staying vigilant and taking proactive measures, we can reduce our risk and protect ourselves from the worst of it.
