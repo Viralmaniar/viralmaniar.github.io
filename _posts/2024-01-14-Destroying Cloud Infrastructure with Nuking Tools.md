@@ -6,7 +6,7 @@ read_time: true
 share: true
 related: true
 title:  " Destroying Cloud Infrastructure with Nuking Tools"
-date:   2024-01-14 16:18:25 +1000
+date:   2024-01-14 00:18:25 +1000
 categories:
   - Offnesive Security
   - Cloud Security
