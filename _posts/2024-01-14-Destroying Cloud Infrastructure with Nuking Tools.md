@@ -16,4 +16,8 @@ tags:
   - 
 ---
 
-cloud computing has become the backbone of countless businesses, ensuring the security of cloud infrastructure is of atmost importance.
+Cloud computing has become the backbone of countless businesses, ensuring the security of cloud infrastructure is of utmost importance. Misconfigurations, unused resources, and forgotten deployments can lead to potential vulnerabilities, compliance issues, and unnecessary costs to the business.  In this blog, we'll look at how ransomware groups can mess up a company's cloud security using powerful open-source tools. They do this by targeting insecure resources and nuking the whole setup, putting the organisation at risk.
+
+
+
+
