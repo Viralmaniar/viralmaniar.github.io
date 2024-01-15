@@ -26,4 +26,19 @@ We'll check out below nuking tools that go after various cloud services:
 - Cloud Nuke: https://github.com/gruntwork-io/cloud-nuke
 
 
+# AWS-Nuke:
+
+AWS-Nuke is an open-source tool developed by the team at rebuy.com, a German e-commerce company. It allows users to programmatically delete resources in their Amazon Web Services (AWS) accounts. AWS-Nuke utilises a configuration file to define the resources to be nuked, which makes it highly flexible and customisable.
+
+# Cloud-Nuke:
+Cloud-Nuke is another open-source tool developed by Gruntwork. While AWS-Nuke focuses solely on AWS resources, Cloud-Nuke expands the scope to cover multiple cloud providers, including AWS, GCP, and Microsoft Azure. Cloud-Nuke's design philosophy is to provide a unified approach for resource removal across different cloud providers, making it an ideal choice for ransomware group to target an organisation with a multi-cloud infrastructure.
+
+# WARNING!:
+
+All these tools are HIGHLY DESTRUCTIVE and deletes all resources! Be very careful of to use these tools in a production environment!
+
+# Usage:
+
+
+# Lapsus$ Ransomware Group
 
