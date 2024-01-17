@@ -57,6 +57,9 @@ The LAPSUS$ group (referred to as DEV-0357 by Microsoft) is a loose collective o
 - Password Bruteforce agaist OWA/VPN portals available on the Internet
 - Redline Stealer is a notorious malware strain that specifically targets well known browsers, aiming to compromise users' sensitive information and credentials. RedLine Stealer is a malware available on underground forums for sale apparently as standalone ($100/$150 depending on the version) or also on a subscription basis ($100/month). This malicious software extracts data from web browsers, including stored login details, autocomplete records, and credit card details. Additionally, when operating on a targeted system, it conducts an inventory that encompasses user-specific data like usernames, location information, hardware specifications, and details about installed security applications.
 
+https://private-user-images.githubusercontent.com/3501170/297361456-36e2bc92-5438-4a14-afaf-f6c96a9bf668.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDU0OTA3MjQsIm5iZiI6MTcwNTQ5MDQyNCwicGF0aCI6Ii8zNTAxMTcwLzI5NzM2MTQ1Ni0zNmUyYmM5Mi01NDM4LTRhMTQtYWZhZi1mNmM5NmE5YmY2NjgucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDExNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDAxMTdUMTEyMDI0WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MjJlMmUyYzE5OTA3ZTQyN2JmZjc1NjBiMjc0OWZlNGM0ZTU5NTY1NmQ3NDY3MTRmN2UwODNhNDkxNTNhN2NiOCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.24ACqocW08ZzIXgHYyD41AdRfNB2Hh3tL3aaK-pHViI
+
+
 
 
 
