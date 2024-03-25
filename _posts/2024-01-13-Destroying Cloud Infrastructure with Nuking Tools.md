@@ -52,12 +52,29 @@ Beginning in late 2021 and continuing late into 2022, a globally active, extorti
 
 The LAPSUS$ group (referred to as DEV-0357 by Microsoft) is a loose collective of threat actors unassociated with any particular political group or philosophy. The maxim “no honor among thieves” applies to LAPSUS$ members: they have demonstrated themselves to be unprofessional—even by ransomware gang standards—by failing to honor their promises to destroy stolen data.
 
+![image](https://github.com/Viralmaniar/viralmaniar.github.io/assets/3501170/413e4e73-0571-44e8-9d79-bfdce57f2d48)
+
+
 # How Lapsus$ got Initial Access?
 
 - Password Bruteforce agaist OWA/VPN portals available on the Internet
+  
 - Redline Stealer is a notorious malware strain that specifically targets well known browsers, aiming to compromise users' sensitive information and credentials. RedLine Stealer is a malware available on underground forums for sale apparently as standalone ($100/$150 depending on the version) or also on a subscription basis ($100/month). This malicious software extracts data from web browsers, including stored login details, autocomplete records, and credit card details. Additionally, when operating on a targeted system, it conducts an inventory that encompasses user-specific data like usernames, location information, hardware specifications, and details about installed security applications.
 
 ![image](https://gist.github.com/assets/3501170/36e2bc92-5438-4a14-afaf-f6c96a9bf668)
+
+- Accessing browser stored passwords
+![image](https://github.com/Viralmaniar/viralmaniar.github.io/assets/3501170/44a09fd7-4809-4b24-bae3-277f1b3bb07d)
+
+- Running cracked version of applications on the endpoint
+![image](https://github.com/Viralmaniar/viralmaniar.github.io/assets/3501170/fdebd955-723d-477e-847d-6e98d04b983c)
+
+- Through authenticated and long term cookies MFA were bypassed
+
+- MFA fatigue was another reason for the group to gain access to the system after successful bruteforce attempts
+
+  
+# Role of Microsoft Exchange in Getting Your Organisation Ransomwared
 
 
 
