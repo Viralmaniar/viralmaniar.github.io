@@ -61,7 +61,8 @@ The LAPSUS$ group (referred to as DEV-0357 by Microsoft) is a loose collective o
   
 - Redline Stealer is a notorious malware strain that specifically targets well known browsers, aiming to compromise users' sensitive information and credentials. RedLine Stealer is a malware available on underground forums for sale apparently as standalone ($100/$150 depending on the version) or also on a subscription basis ($100/month). This malicious software extracts data from web browsers, including stored login details, autocomplete records, and credit card details. Additionally, when operating on a targeted system, it conducts an inventory that encompasses user-specific data like usernames, location information, hardware specifications, and details about installed security applications.
 
-![image](https://gist.github.com/assets/3501170/36e2bc92-5438-4a14-afaf-f6c96a9bf668)
+![image](https://github.com/Viralmaniar/viralmaniar.github.io/assets/3501170/baf9dada-f5d4-46b7-bbb6-61e0a9bad029)
+
 
 - Accessing browser stored passwords
 ![image](https://github.com/Viralmaniar/viralmaniar.github.io/assets/3501170/44a09fd7-4809-4b24-bae3-277f1b3bb07d)
