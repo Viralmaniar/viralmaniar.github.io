@@ -75,7 +75,22 @@ The LAPSUS$ group (referred to as DEV-0357 by Microsoft) is a loose collective o
 - MFA fatigue was another reason for the group to gain access to the system after successful bruteforce attempts
 
   
-# Role of Microsoft Exchange in Getting Your Organisation Ransomwared
+# Lapsus$ targating Microsoft Exchange 
+
+There were several notable CVEs targeting Microsoft Exchange. Here are some significant ones up to that point:
+
+    CVE-2021-26855: This was a critical vulnerability in Microsoft Exchange Server that allowed an attacker to execute arbitrary code on the Exchange Server due to improper validation of user-supplied input.
+
+    CVE-2021-26857: Another critical vulnerability in Microsoft Exchange Server that allowed an attacker to run arbitrary code with SYSTEM privileges on the Exchange Server by exploiting a server-side request forgery (SSRF) vulnerability.
+
+    CVE-2021-26858: Similar to CVE-2021-26855, this was a critical vulnerability in Microsoft Exchange Server that allowed an attacker to execute arbitrary code on the Exchange Server due to improper validation of user-supplied input.
+
+    CVE-2021-27065: This was a post-authentication arbitrary file write vulnerability in Microsoft Exchange Server that allowed an attacker to write a file to any path on the server.
+
+    CVE-2021-27078: This vulnerability was in the Exchange Control Panel (ECP) component of Microsoft Exchange Server, allowing an attacker to gain access to arbitrary files on the server.
+
+    CVE-2021-28480: This was a remote code execution vulnerability in Microsoft Exchange Server. Exploiting this vulnerability allowed an attacker to execute arbitrary code in the context of the SYSTEM user.
+
 
 
 
