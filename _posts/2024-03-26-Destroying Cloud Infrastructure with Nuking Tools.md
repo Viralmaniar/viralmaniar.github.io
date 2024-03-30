@@ -75,7 +75,7 @@ The LAPSUS$ group (referred to as DEV-0357 by Microsoft) is a loose collective o
 - MFA fatigue was another reason for the group to gain access to the system after successful bruteforce attempts
 
   
-# Lapsus$ targating Microsoft Exchange 
+# Lapsus$ targating Microsoft Exchange Servers:
 
 Lapsus had been focusing on Microsoft Exchange Servers with the aim of seizing control of multiple cloud service-related root accounts. Upon gaining access to these root accounts email addresses, they proceeded to reset the passwords and establish new ones. Notably, there were numerous CVEs identified targeting Microsoft Exchange leading up to full compromise and nuking of the entire infrastructure.  Here are some significant CVEs that threat actors were targating:
 
@@ -93,7 +93,8 @@ Lapsus had been focusing on Microsoft Exchange Servers with the aim of seizing c
 
 ![0 6gzTzrJoJUaN0UPg](https://github.com/Viralmaniar/viralmaniar.github.io/assets/3501170/6316e83b-3185-4d78-bb6f-cf59fa05eb59)
 
+# Other TTPs for gaining access to the initial account:
 
-
+- Jenkins 
 
 
