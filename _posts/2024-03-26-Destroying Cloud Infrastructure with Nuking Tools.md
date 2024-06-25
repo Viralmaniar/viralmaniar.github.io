@@ -5,7 +5,7 @@ author_profile: true
 read_time: true
 share: true
 related: true
-title:  " Destroying Cloud Infrastructure with Nuking Tools"
+title:  "Destroying Cloud Infrastructure with Nuking Tools"
 date:   2024-01-13 00:18:25 +1000
 categories:
   - Offnesive Security
@@ -13,7 +13,8 @@ categories:
 tags:
   - Offensive Security
   - Nuking Tools
-  - 
+  - Purple Team
+  - Incident Response
 ---
 
 Cloud computing has become the backbone of countless businesses, ensuring the security of cloud infrastructure is of utmost importance. Misconfigurations, unused resources, and forgotten deployments can lead to potential vulnerabilities, compliance issues, and unnecessary costs to the business.  In this blog, we'll look at how ransomware groups can mess up a company's cloud security using powerful open-source tools. They do this by targeting insecure resources and nuking the whole setup, putting the organisation at risk.
@@ -142,7 +143,7 @@ The threat actor group Lapsus$ uses Dropbox for covert data exfiltration by leve
 
 ![image](https://github.com/Viralmaniar/viralmaniar.github.io/assets/3501170/46c0b9b9-1ab6-467c-94f3-e302229de396)
 
-# Demoing AWS-Nuke
+# Demoing AWS-Nuke: Incident Response Insight:
 From a ransomware perspective, understanding how Lapsus$ might exploit AWS resources to delete them. If attackers gain unauthorised access to organisation AWS account using one of the above listed methods they could potentially deploy and persist malicious resources. AWS Nuke provides a proactive approach to delete all resources swiftly and securely, minimizing the impact of such an attack.
 
 ### Installing AWS Nuke
@@ -170,4 +171,155 @@ accounts:
   "000000000000": {} # aws-nuke-example
 ```
 
-# Incident Response Insight:
+With this config we can run aws-nuke:
+
+```
+$ aws-nuke -c config/nuke-config.yml --profile aws-nuke-example
+aws-nuke version v1.0.39.gc2f318f - Fri Jul 28 16:26:41 CEST 2017 - c2f318f37b7d2dec0e646da3d4d05ab5296d5bce
+
+Do you really want to nuke the account with the ID 000000000000 and the alias 'aws-nuke-example'?
+Do you want to continue? Enter account alias to continue.
+> aws-nuke-example
+
+eu-west-1 - EC2DHCPOption - 'dopt-bf2ec3d8' - would remove
+eu-west-1 - EC2Instance - 'i-01b489457a60298dd' - would remove
+eu-west-1 - EC2KeyPair - 'test' - would remove
+eu-west-1 - EC2NetworkACL - 'acl-6482a303' - cannot delete default VPC
+eu-west-1 - EC2RouteTable - 'rtb-ffe91e99' - would remove
+eu-west-1 - EC2SecurityGroup - 'sg-220e945a' - cannot delete group 'default'
+eu-west-1 - EC2SecurityGroup - 'sg-f20f958a' - would remove
+eu-west-1 - EC2Subnet - 'subnet-154d844e' - would remove
+eu-west-1 - EC2Volume - 'vol-0ddfb15461a00c3e2' - would remove
+eu-west-1 - EC2VPC - 'vpc-c6159fa1' - would remove
+eu-west-1 - IAMUserAccessKey - 'my-user -> ABCDEFGHIJKLMNOPQRST' - would remove
+eu-west-1 - IAMUserPolicyAttachment - 'my-user -> AdministratorAccess' - [UserName: "my-user", PolicyArn: "arn:aws:iam::aws:policy/AdministratorAccess", PolicyName: "AdministratorAccess"] - would remove
+eu-west-1 - IAMUser - 'my-user' - would remove
+Scan complete: 13 total, 11 nukeable, 2 filtered.
+
+Would delete these resources. Provide --no-dry-run to actually destroy resources.
+```
+
+As we see, aws-nuke only lists all found resources and exits. This is because the --no-dry-run flag is missing. Also it wants to delete the administrator. We don't want to do this, because we use this user to access our account. Therefore we have to extend the config so it ignores this user:
+
+```
+regions:
+- eu-west-1
+
+account-blocklist:
+- "999999999999" # production
+
+accounts:
+  "000000000000": # aws-nuke-example
+    filters:
+      IAMUser:
+      - "my-user"
+      IAMUserPolicyAttachment:
+      - "my-user -> AdministratorAccess"
+      IAMUserAccessKey:
+      - "my-user -> ABCDEFGHIJKLMNOPQRST"
+```
+```
+$ aws-nuke -c config/nuke-config.yml --profile aws-nuke-example --no-dry-run
+aws-nuke version v1.0.39.gc2f318f - Fri Jul 28 16:26:41 CEST 2017 - c2f318f37b7d2dec0e646da3d4d05ab5296d5bce
+
+Do you really want to nuke the account with the ID 000000000000 and the alias 'aws-nuke-example'?
+Do you want to continue? Enter account alias to continue.
+> aws-nuke-example
+
+eu-west-1 - EC2DHCPOption - 'dopt-bf2ec3d8' - would remove
+eu-west-1 - EC2Instance - 'i-01b489457a60298dd' - would remove
+eu-west-1 - EC2KeyPair - 'test' - would remove
+eu-west-1 - EC2NetworkACL - 'acl-6482a303' - cannot delete default VPC
+eu-west-1 - EC2RouteTable - 'rtb-ffe91e99' - would remove
+eu-west-1 - EC2SecurityGroup - 'sg-220e945a' - cannot delete group 'default'
+eu-west-1 - EC2SecurityGroup - 'sg-f20f958a' - would remove
+eu-west-1 - EC2Subnet - 'subnet-154d844e' - would remove
+eu-west-1 - EC2Volume - 'vol-0ddfb15461a00c3e2' - would remove
+eu-west-1 - EC2VPC - 'vpc-c6159fa1' - would remove
+eu-west-1 - IAMUserAccessKey - 'my-user -> ABCDEFGHIJKLMNOPQRST' - filtered by config
+eu-west-1 - IAMUserPolicyAttachment - 'my-user -> AdministratorAccess' - [UserName: "my-user", PolicyArn: "arn:aws:iam::aws:policy/AdministratorAccess", PolicyName: "AdministratorAccess"] - would remove
+eu-west-1 - IAMUser - 'my-user' - filtered by config
+Scan complete: 13 total, 8 nukeable, 5 filtered.
+
+Do you really want to nuke these resources on the account with the ID 000000000000 and the alias 'aws-nuke-example'?
+Do you want to continue? Enter account alias to continue.
+> aws-nuke-example
+
+eu-west-1 - EC2DHCPOption - 'dopt-bf2ec3d8' - failed
+eu-west-1 - EC2Instance - 'i-01b489457a60298dd' - triggered remove
+eu-west-1 - EC2KeyPair - 'test' - triggered remove
+eu-west-1 - EC2RouteTable - 'rtb-ffe91e99' - failed
+eu-west-1 - EC2SecurityGroup - 'sg-f20f958a' - failed
+eu-west-1 - EC2Subnet - 'subnet-154d844e' - failed
+eu-west-1 - EC2Volume - 'vol-0ddfb15461a00c3e2' - failed
+eu-west-1 - EC2VPC - 'vpc-c6159fa1' - failed
+eu-west-1 - S3Object - 's3://rebuy-terraform-state-138758637120/run-terraform.lock' - triggered remove
+
+Removal requested: 2 waiting, 6 failed, 5 skipped, 0 finished
+
+eu-west-1 - EC2DHCPOption - 'dopt-bf2ec3d8' - failed
+eu-west-1 - EC2Instance - 'i-01b489457a60298dd' - waiting
+eu-west-1 - EC2KeyPair - 'test' - removed
+eu-west-1 - EC2RouteTable - 'rtb-ffe91e99' - failed
+eu-west-1 - EC2SecurityGroup - 'sg-f20f958a' - failed
+eu-west-1 - EC2Subnet - 'subnet-154d844e' - failed
+eu-west-1 - EC2Volume - 'vol-0ddfb15461a00c3e2' - failed
+eu-west-1 - EC2VPC - 'vpc-c6159fa1' - failed
+
+Removal requested: 1 waiting, 6 failed, 5 skipped, 1 finished
+
+--- truncating long output ---
+```
+
+As you see aws-nuke now tries to delete all resources which aren't filtered, without caring about the dependencies between them. This results in API errors which can be ignored. These errors are shown at the end of the aws-nuke run, if they keep to appear.
+
+`aws-nuke` retries deleting all resources until all specified ones are deleted or until there are only resources with errors left.
+
+## Detection:
+Anomaly detection systems, monitoring tools or even manual checks may alert to unauthorised access or suspicious activities within cloud account.
+
+## Containment:
+Once an incident is confirmed containment measures are critical to prevent further damage or unauthorised access.
+
+## Eradication: 
+After containment the focus shifts to complete eradication of compromised resources. 
+
+## Recovery and Remediation:
+Post-incident, recovery efforts involve rebuilding affected resources and restoring functionality. 
+
+# Lessons Learned from Lapsus$ Ransomware Group
+
+## Attribution is hard
+
+Attribution in cybersecurity incidents, especially with sophisticated threat actors like Lapsus$, proves challenging due to several factors:
+**1. TTPs Overlap:** TTPs often overlap among different threat actor groups, making it difficult to pinpoint specific groups based solely on attack methods.
+**2. Alliances/Affiliations/Splits:** Threat actors may form alliances, have affiliations with other groups or splitinto new entities further complicating attribution efforts.
+**3. Misdirection:** Threat actors like Lapsus$ may employ tactics to mislead investigators such as using false flags or infrastructure leased from third parties.
+
+## Threat Intelligence is key during Incident Responses
+
+Effective incident response relies heavily on timely and accurate threat intelligence:
+**1. Early Detection**: Access to up-to-date threat intelligence helps in early detection of threats and malicious activities associated with groups like Lapsus$, enabling rapid response.
+**2. Trend Analysis:** Continuous monitoring and analysis of threat intelligence allow organizations to understand evolving tactics and adjust defenses accordingly.
+**3. Attribution Aid:** Comprehensive threat intelligence enhances attribution capabilities by correlating observed TTPs with known threat actor behaviors.
+
+## Take care of the weakest link: Humans
+
+Human factors remain a critical vulnerability in cybersecurity:
+**1. Phishing Awareness:** Lapsus$ and similar groups often exploit human vulnerabilities through phishing attacks to gain initial access or escalate privileges.
+**2. Training and Education:** Regular cybersecurity training and awareness programs are essential to mitigate the risk of insider threats or inadvertent security breaches.
+**3. Security Culture:** Fostering a security-conscious organisational culture reinforces the importance of adhering to policies and recognising potential threats posed by sophisticated threat actors.
+
+## Cloud is great, but you need to configure appropriately
+
+While cloud services offer scalability and flexibility, improper configurations can expose organisations to significant risks:
+**1. Misconfigurations:** Lapsus$ has exploited misconfigured cloud environments to gain unauthorised access, exfiltrate data, or deploy ransomware.
+**2. Security Best Practices:** Implementing robust access controls, encryption, and continuous monitoring are crucial to secure cloud infrastructure against evolving threats.
+**3. Compliance and Auditing:** Regular audits and adherence to security best practices help ensure that cloud environments remain resilient against sophisticated threat actors.
+
+## Unpredictable threat actors can be dangerous
+
+The unpredictability of threat actors like Lapsus$ poses significant challenges:
+**1. Agility in Tactics:** Lapsus$ has demonstrated the ability to quickly adapt tactics and techniques, making them difficult to anticipate or defend against.
+**2. Impact of Attacks:** Their unpredictable nature can lead to widespread disruption, financial loss, and reputational damage for targeted organisations.
+**3. Resilience and Preparedness:** Building resilience through proactive security measures, incident response planning, and threat modeling is essential to mitigate the impact of unpredictable threat actors.
