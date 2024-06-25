@@ -95,6 +95,50 @@ Lapsus had been focusing on Microsoft Exchange Servers with the aim of seizing c
 
 # Other TTPs for gaining access to the initial account:
 
-- Jenkins 
+## Jenkins: 
+If a Jenkins server encounters authentication related misconfigurations, you won't be asked to log in. Instead, visiting the Jenkins server's base URL will show its homepage, usually listing the projects that are available.
 
+![image9](https://github.com/Viralmaniar/viralmaniar.github.io/assets/3501170/d8cad0e8-d616-4a24-9014-52ce13fcd179)
+
+When hunting for initial access Lapsus$ focus is on the Script Console page, found at https://JENKINS_URL/script. This page enables the execution of Groovy script code, which can initiate various operating system commands (Windows/Linux). These commands run with the same permissions as the Jenkins server, typically associated with a highly privileged user base.
+
+For instance, we successfully demonstrated the capability of the Script Console page to execute OS commands such as whoami and ipconfig on a Windows server.
+
+![image](https://github.com/Viralmaniar/viralmaniar.github.io/assets/3501170/54960901-8c4a-41d8-b558-2d0f0a589fd4)
+
+![image](https://github.com/Viralmaniar/viralmaniar.github.io/assets/3501170/6a7c84da-7491-41a6-9f37-67065439a85e)
+
+Another critical area Lapsus$ group examines for authentication problems is the Credentials page, accessible at https://JENKINS_URL/credentials. This page permits access to encrypted credentials, which can potentially be extracted by inspecting the page source.
+
+During my investigation, we encountered a Jenkins server stored multiple AWS credentials, some of which granted complete control over the AWS environment:
+
+![image](https://github.com/Viralmaniar/viralmaniar.github.io/assets/3501170/db472c87-e70b-41d9-b043-d0765740483e)
+
+## Insider Threats:
+
+A disgruntled employee with elevated AWS privileges decides to create havoc before leaving the company. They use AWSNuke to indiscriminately delete critical production resources, including EC2 instances, S3 buckets containing customer data, and RDS databases.
+
+## Compromised Credentials:
+
+Attackers gain access to AWS IAM credentials through phishing or credential stuffing attacks. Upon gaining access, they deploy malicious infrastructure and use AWSNuke to cover their tracks by deleting logs and eliminating evidence of their activities.
+
+## Misconfigured Automation:
+
+A misconfigured automation script inadvertently triggers AWSNuke, intending to clean up all environments mistakenly targeting production resources due to a scripting error.
+
+# Exfilteration and Impact:
+
+The threat actor group Lapsus$ leverages services like Ngrok and FileZilla in a coordinated attack for efficient data exfiltration. 
+
+Ngrok, a tunneling software, could be employed to create a secure connection from the compromised system to an external server controlled by the attackers. By setting up a tunnel, they can bypass firewall restrictions and securely transmit sensitive data, such as stolen credentials or proprietary information, without triggering alarms. 
+![image](https://github.com/Viralmaniar/viralmaniar.github.io/assets/3501170/21f6c633-3f4c-4e47-b0c6-88a96a977d4b)
+
+
+Additionally, FileZilla, a popular FTP client, could serve as the transfer mechanism to upload exfiltrated files from the compromised system to the attacker's server via the Ngrok tunnel. This combination allows Lapsus$ to stealthily exfiltrate data while evading detection by traditional network monitoring and security measures, posing significant challenges for incident response teams aiming to detect and mitigate such activities promptly.
+
+![8099-d6](https://github.com/Viralmaniar/viralmaniar.github.io/assets/3501170/667f897d-132b-4f84-be2d-70ce08fc0bd2)
+
+The threat actor group Lapsus$ uses Dropbox for covert data exfiltration by leveraging its cloud storage capabilities. They might utilise Dropbox as a repository to upload stolen data, such as sensitive documents, intellectual property, or compromised credentials, using Dropbox's synchronisation feature to seamlessly transfer files from a compromised system to their designated Dropbox account. 
+
+![image](https://github.com/Viralmaniar/viralmaniar.github.io/assets/3501170/46c0b9b9-1ab6-467c-94f3-e302229de396)
 
