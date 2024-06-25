@@ -17,6 +17,8 @@ tags:
   - Incident Response
 ---
 
+![unnamed](https://github.com/Viralmaniar/viralmaniar.github.io/assets/3501170/e13252c6-b1da-4504-9a7c-341148aab8a2)
+
 Cloud computing has become the backbone of countless businesses, ensuring the security of cloud infrastructure is of utmost importance. Misconfigurations, unused resources, and forgotten deployments can lead to potential vulnerabilities, compliance issues, and unnecessary costs to the business.  In this blog, we'll look at how ransomware groups can mess up a company's cloud security using powerful open-source tools. They do this by targeting insecure resources and nuking the whole setup, putting the organisation at risk.
 
 We'll check out below nuking tools that go after various cloud services:
