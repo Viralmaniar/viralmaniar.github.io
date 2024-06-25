@@ -142,3 +142,32 @@ The threat actor group Lapsus$ uses Dropbox for covert data exfiltration by leve
 
 ![image](https://github.com/Viralmaniar/viralmaniar.github.io/assets/3501170/46c0b9b9-1ab6-467c-94f3-e302229de396)
 
+# Demoing AWS-Nuke
+From a ransomware perspective, understanding how Lapsus$ might exploit AWS resources to delete them. If attackers gain unauthorised access to organisation AWS account using one of the above listed methods they could potentially deploy and persist malicious resources. AWS Nuke provides a proactive approach to delete all resources swiftly and securely, minimizing the impact of such an attack.
+
+### Installing AWS Nuke
+`go get github.com/rebuy-de/aws-nuke`
+
+Alternatively, you can clone the repository and build it manually:
+```
+git clone https://github.com/rebuy-de/aws-nuke.git
+cd aws-nuke
+go build
+```
+
+### Usage
+
+At first you need to create a config file for aws-nuke. This is a minimal one:
+```
+regions:
+- eu-west-1
+- global
+
+account-blocklist:
+- "999999999999" # production
+
+accounts:
+  "000000000000": {} # aws-nuke-example
+```
+
+# Incident Response Insight:
