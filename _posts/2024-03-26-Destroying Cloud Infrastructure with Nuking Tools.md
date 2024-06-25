@@ -275,16 +275,16 @@ As you see aws-nuke now tries to delete all resources which aren't filtered, wit
 
 `aws-nuke` retries deleting all resources until all specified ones are deleted or until there are only resources with errors left.
 
-## Detection:
+## Detection
 Anomaly detection systems, monitoring tools or even manual checks may alert to unauthorised access or suspicious activities within cloud account.
 
-## Containment:
+## Containment
 Once an incident is confirmed containment measures are critical to prevent further damage or unauthorised access.
 
-## Eradication: 
+## Eradication
 After containment the focus shifts to complete eradication of compromised resources. 
 
-## Recovery and Remediation:
+## Recovery and Remediation
 Post-incident, recovery efforts involve rebuilding affected resources and restoring functionality. 
 
 # Lessons Learned from Lapsus$ Ransomware Group
