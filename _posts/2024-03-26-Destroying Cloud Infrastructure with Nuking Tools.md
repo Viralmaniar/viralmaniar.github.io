@@ -289,35 +289,35 @@ Post-incident, recovery efforts involve rebuilding affected resources and restor
 
 ## Attribution is hard
 
-Attribution in cybersecurity incidents, especially with sophisticated threat actors like Lapsus$, proves challenging due to several factors:
-**1. TTPs Overlap:** TTPs often overlap among different threat actor groups, making it difficult to pinpoint specific groups based solely on attack methods.
-**2. Alliances/Affiliations/Splits:** Threat actors may form alliances, have affiliations with other groups or splitinto new entities further complicating attribution efforts.
-**3. Misdirection:** Threat actors like Lapsus$ may employ tactics to mislead investigators such as using false flags or infrastructure leased from third parties.
+Attribution in cybersecurity incidents, especially with sophisticated threat actors like Lapsus$, proves challenging due to several factors:<BR>
+**1. TTPs Overlap:** TTPs often overlap among different threat actor groups, making it difficult to pinpoint specific groups based solely on attack methods.<BR>
+**2. Alliances/Affiliations/Splits:** Threat actors may form alliances, have affiliations with other groups or splitinto new entities further complicating attribution efforts.<BR>
+**3. Misdirection:** Threat actors like Lapsus$ may employ tactics to mislead investigators such as using false flags or infrastructure leased from third parties.<BR>
 
 ## Threat Intelligence is key during Incident Responses
 
-Effective incident response relies heavily on timely and accurate threat intelligence:
-**1. Early Detection**: Access to up-to-date threat intelligence helps in early detection of threats and malicious activities associated with groups like Lapsus$, enabling rapid response.
-**2. Trend Analysis:** Continuous monitoring and analysis of threat intelligence allow organizations to understand evolving tactics and adjust defenses accordingly.
-**3. Attribution Aid:** Comprehensive threat intelligence enhances attribution capabilities by correlating observed TTPs with known threat actor behaviors.
+Effective incident response relies heavily on timely and accurate threat intelligence:<BR>
+**1. Early Detection**: Access to up-to-date threat intelligence helps in early detection of threats and malicious activities associated with groups like Lapsus$, enabling rapid response.<BR>
+**2. Trend Analysis:** Continuous monitoring and analysis of threat intelligence allow organizations to understand evolving tactics and adjust defenses accordingly.<BR>
+**3. Attribution Aid:** Comprehensive threat intelligence enhances attribution capabilities by correlating observed TTPs with known threat actor behaviors.<BR>
 
 ## Take care of the weakest link: Humans
 
-Human factors remain a critical vulnerability in cybersecurity:
-**1. Phishing Awareness:** Lapsus$ and similar groups often exploit human vulnerabilities through phishing attacks to gain initial access or escalate privileges.
-**2. Training and Education:** Regular cybersecurity training and awareness programs are essential to mitigate the risk of insider threats or inadvertent security breaches.
-**3. Security Culture:** Fostering a security-conscious organisational culture reinforces the importance of adhering to policies and recognising potential threats posed by sophisticated threat actors.
+Human factors remain a critical vulnerability in cybersecurity:<BR>
+**1. Phishing Awareness:** Lapsus$ and similar groups often exploit human vulnerabilities through phishing attacks to gain initial access or escalate privileges.<BR>
+**2. Training and Education:** Regular cybersecurity training and awareness programs are essential to mitigate the risk of insider threats or inadvertent security breaches.<BR>
+**3. Security Culture:** Fostering a security-conscious organisational culture reinforces the importance of adhering to policies and recognising potential threats posed by sophisticated threat actors.<BR>
 
 ## Cloud is great, but you need to configure appropriately
 
-While cloud services offer scalability and flexibility, improper configurations can expose organisations to significant risks:
-**1. Misconfigurations:** Lapsus$ has exploited misconfigured cloud environments to gain unauthorised access, exfiltrate data, or deploy ransomware.
-**2. Security Best Practices:** Implementing robust access controls, encryption, and continuous monitoring are crucial to secure cloud infrastructure against evolving threats.
-**3. Compliance and Auditing:** Regular audits and adherence to security best practices help ensure that cloud environments remain resilient against sophisticated threat actors.
+While cloud services offer scalability and flexibility, improper configurations can expose organisations to significant risks:<BR>
+**1. Misconfigurations:** Lapsus$ has exploited misconfigured cloud environments to gain unauthorised access, exfiltrate data, or deploy ransomware.<BR>
+**2. Security Best Practices:** Implementing robust access controls, encryption, and continuous monitoring are crucial to secure cloud infrastructure against evolving threats.<BR>
+**3. Compliance and Auditing:** Regular audits and adherence to security best practices help ensure that cloud environments remain resilient against sophisticated threat actors.<BR>
 
 ## Unpredictable threat actors can be dangerous
 
-The unpredictability of threat actors like Lapsus$ poses significant challenges:
-**1. Agility in Tactics:** Lapsus$ has demonstrated the ability to quickly adapt tactics and techniques, making them difficult to anticipate or defend against.
-**2. Impact of Attacks:** Their unpredictable nature can lead to widespread disruption, financial loss, and reputational damage for targeted organisations.
-**3. Resilience and Preparedness:** Building resilience through proactive security measures, incident response planning, and threat modeling is essential to mitigate the impact of unpredictable threat actors.
+The unpredictability of threat actors like Lapsus$ poses significant challenges:<BR>
+**1. Agility in Tactics:** Lapsus$ has demonstrated the ability to quickly adapt tactics and techniques, making them difficult to anticipate or defend against.<BR>
+**2. Impact of Attacks:** Their unpredictable nature can lead to widespread disruption, financial loss, and reputational damage for targeted organisations.<BR>
+**3. Resilience and Preparedness:** Building resilience through proactive security measures, incident response planning, and threat modeling is essential to mitigate the impact of unpredictable threat actors.<BR>
