@@ -54,7 +54,7 @@ The LAPSUS$ group (referred to as DEV-0357 by Microsoft) is a loose collective o
 ![image](https://github.com/Viralmaniar/viralmaniar.github.io/assets/3501170/413e4e73-0571-44e8-9d79-bfdce57f2d48)
 
 
-# How Lapsus$ got Initial Access?
+# How Lapsus$ get Initial Access?
 
 - Password Bruteforce agaist OWA/VPN portals available on the Internet
   
