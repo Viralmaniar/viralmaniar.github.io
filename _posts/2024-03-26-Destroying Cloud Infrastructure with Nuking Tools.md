@@ -5,7 +5,7 @@ author_profile: true
 read_time: true
 share: true
 related: true
-title:  "Destroying Cloud Infrastructure with Nuking Tools"
+title:  "Destroying Cloud Infrastructure with Nuking Tools - LAPSUS$ Case Study"
 date:   2024-01-13 00:18:25 +1000
 categories:
   - Offnesive Security
@@ -28,6 +28,9 @@ We'll check out below nuking tools that go after various cloud services:
 - Azure-Nuke: https://github.com/ekristen/azure-nuke
 - Cloud Nuke: https://github.com/gruntwork-io/cloud-nuke
 
+# ⚠️⚠️⚠️⚠️ WARNING!: ⚠️⚠️⚠️⚠️
+
+All these tools are HIGHLY DESTRUCTIVE and deletes all resources! Be very careful of to use these tools in a production environment!
 
 # AWS-Nuke:
 
@@ -36,18 +39,11 @@ AWS-Nuke is an open-source tool developed by the team at rebuy.com, a German e-c
 # Cloud-Nuke:
 Cloud-Nuke is another open-source tool developed by Gruntwork. While AWS-Nuke focuses solely on AWS resources, Cloud-Nuke expands the scope to cover multiple cloud providers, including AWS, GCP, and Microsoft Azure. Cloud-Nuke's design philosophy is to provide a unified approach for resource removal across different cloud providers, making it an ideal choice for ransomware group to target an organisation with a multi-cloud infrastructure.
 
-# WARNING!:
-
-All these tools are HIGHLY DESTRUCTIVE and deletes all resources! Be very careful of to use these tools in a production environment!
-
-# Usage:
-
-**- cloud-nuke:**
+## Usage: **cloud-nuke:**
 
 Simply running `cloud-nuke aws` will start the process of cleaning up your cloud account. You'll be shown a list of resources that'll be deleted as well as a prompt to confirm before any deletion actually takes place.
 
 In AWS, to delete only the default resources, run `cloud-nuke defaults-aws`. This will remove the default VPCs in each region, and will also revoke the ingress and egress rules associated with the default security group in each VPC. Note that the default security group itself is unable to be deleted.
-
 
 
 # Lapsus$ Ransomware Group:
