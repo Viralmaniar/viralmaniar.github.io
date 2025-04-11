@@ -50,6 +50,8 @@ Now that you know some basics of a few terms that are common in the AI world. Le
 
 # Setting Up: Installing Ollama
 
+## Step 1: Install Ollama
+
 Go to https://ollama.com/download and download for your OS (Mac, Windows, or Linux).
 ![image](https://github.com/user-attachments/assets/316ab9be-8fed-46b2-ab33-822947b5e3de)
 
@@ -64,6 +66,8 @@ After successful installation. Let's verify and look for flags related to Ollama
 ``` ollama --help ```
 
 ![image](https://github.com/user-attachments/assets/238311f1-192b-4659-bfcb-c81870844847)
+
+## Step 2: Run the First Model
 
 
 
