@@ -69,5 +69,34 @@ After successful installation. Let's verify and look for flags related to Ollama
 
 ## Step 2: Run the First Model
 
+We can go to [https://huggingface.co](https://ollama.com/search) and search for various models. Here I'm searching for llama and it provides me with a different versions of llama model:
+
+![image](https://github.com/user-attachments/assets/7c04d20e-d19b-4b76-9132-4ca9cb3475a7)
+
+We will use llama3.2 with 3 Billion parameters.
+
+![image](https://github.com/user-attachments/assets/3d5eaafc-0bc8-46a0-ac23-198c1d86f795)
+
+To pull this locally on your machine use below command:
+
+`ollama pull llama3.2`
+
+![image](https://github.com/user-attachments/assets/e145a742-60c1-4d52-8543-711dabf0bc79)
+
+Once this is successfully pulled we can verify by listing it using below:
+
+`ollama list`
+
+![image](https://github.com/user-attachments/assets/ae45affa-0d39-400c-926e-38c5153267fe)
+
+Now let's run the model using:
+
+`ollama pull llama3.2`
+
+![image](https://github.com/user-attachments/assets/0783f8b5-e7f9-44d7-ab8a-df31710bd6b0)
+
+Once successful it will show >>> and ask you to send a message as shown above.
+
+
 
 
