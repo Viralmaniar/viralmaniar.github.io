@@ -61,7 +61,7 @@ I am running WSL on a Windows 11 machine and downloading it via a simple Curl co
 
 After successful installation. Let's verify and look for flags related to Ollama using below:
 
-` ollama --help `
+``` ollama --help ```
 
 ![image](https://github.com/user-attachments/assets/238311f1-192b-4659-bfcb-c81870844847)
 
