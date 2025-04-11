@@ -59,7 +59,11 @@ I am running WSL on a Windows 11 machine and downloading it via a simple Curl co
 
 ![image](https://github.com/user-attachments/assets/67e85a92-0b0a-4ca8-86b7-c43cb10a5cad)
 
+After successful installation. Let's verify and look for flags related to Ollama using below:
 
+` ollama --help `
+
+![image](https://github.com/user-attachments/assets/238311f1-192b-4659-bfcb-c81870844847)
 
 
 
