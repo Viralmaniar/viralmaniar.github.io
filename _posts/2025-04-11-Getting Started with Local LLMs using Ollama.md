@@ -95,7 +95,10 @@ Now let's run the model using:
 
 ![image](https://github.com/user-attachments/assets/0783f8b5-e7f9-44d7-ab8a-df31710bd6b0)
 
-Once successful it will show >>> and ask you to send a message as shown above.
+Once successful it will show >>> and ask you to send a message as shown above. Once running I have asked the model a following question:
+ `suggest 3 ways to generate random and secure passwords` to which I got the following answer:
+ 
+![image](https://github.com/user-attachments/assets/34e3cec7-1563-4872-9eb2-c3823a408457)
 
 
 
