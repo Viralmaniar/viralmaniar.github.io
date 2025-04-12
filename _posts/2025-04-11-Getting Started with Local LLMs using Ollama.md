@@ -100,6 +100,32 @@ Once successful it will show >>> and ask you to send a message as shown above. O
  
 ![image](https://github.com/user-attachments/assets/34e3cec7-1563-4872-9eb2-c3823a408457)
 
+## Step 3: Understand the model
 
+`/show info` command will show information on the model in detail which includes things such as:
+
+![image](https://github.com/user-attachments/assets/454e57c1-feb1-459c-986d-dcbf16f3ec76)
+
+- architecture: llama:
+  This refers to the model being based on the LLaMA (Large Language Model Meta AI) architecture developed by Meta (Facebook). It’s one of the open-weight large language models known for being efficient and effective.
+
+- parameters: 3.2B
+The model has 3.2 billion parameters which are the weights in the neural network that the model uses to learn. More parameters generally mean more capacity to understand and generate complex language — although size isn't everything.
+
+- context length: 131072
+This is huge. It means the model can consider up to 131,072 tokens of input text at once. That's roughly equivalent to a full-length novel. Great for long conversations, codebases or documents generation.
+
+- embedding length: 3072
+Each token is embedded into a 3072-dimensional vector which is the internal representation the model uses to understand the meaning of words or tokens.
+
+- quantisation: Q4_K_M
+This tells us the model has been quantised using a method called Q4_K_M which compresses the model to use less memory and run faster often with minimal loss in accuracy. "Q4" usually means 4-bit quantisation (versus full 16- or 32-bit).
+
+Capabilities: This is what the model can actually do.
+- completion: The model supports text completion meaning you can give it a prompt and it will continue it.
+
+- tools: This efers to the ability to interface with external tools such as plugins or APIs. Although exact meaning may depend on your environment.
+
+In short we are using a 3.2B-parameter LLaMA model that's been quantised for speed and has a very long memory and can handle text completions and tool integrations.
 
 
