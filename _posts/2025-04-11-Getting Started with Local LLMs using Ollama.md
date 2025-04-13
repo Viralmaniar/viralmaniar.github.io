@@ -128,4 +128,9 @@ Capabilities: This is what the model can actually do.
 
 In short we are using a 3.2B-parameter LLaMA model that's been quantised for speed and has a very long memory and can handle text completions and tool integrations.
 
+Running local LLMs used to be a pain using tools like Ollama it is simple and powerful. In the next few blog series we will customise model, combine it with vector search and RAG to have a personal ChatGPT running securely and privately on a local machine.
 
+# Questions?
+
+Twitter: https://x.com/maniarviral <br>
+LinkedIn: https://au.linkedin.com/in/viralmaniar
