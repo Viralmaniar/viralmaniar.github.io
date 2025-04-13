@@ -5,7 +5,7 @@ author_profile: true
 read_time: true
 share: true
 related: true
-title:  "Getting Started with Local LLMs using Ollama"
+title:  "Getting Started with Local LLMs using Ollama (Part 1)"
 date:   2025-04-11 00:19:05 +1000
 categories:
   - Artificial Intelligence (AI)
@@ -127,6 +127,8 @@ Capabilities: This is what the model can actually do.
 - tools: This efers to the ability to interface with external tools such as plugins or APIs. Although exact meaning may depend on your environment.
 
 In short we are using a 3.2B-parameter LLaMA model that's been quantised for speed and has a very long memory and can handle text completions and tool integrations.
+
+# Final Thoughts
 
 Running local LLMs used to be a pain using tools like Ollama it is simple and powerful. In the next few blog series we will customise model, combine it with vector search and RAG to have a personal ChatGPT running securely and privately on a local machine.
 
