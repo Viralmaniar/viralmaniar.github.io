@@ -15,6 +15,7 @@ tags:
   - LLM
   - Ollama
 ---
+![image](https://github.com/user-attachments/assets/7b285b04-159c-4765-8ca6-0942b8689ade)
 
 Large Language Models (LLMs) have revolutionised the way we interact with machines. While powerful cloud-hosted LLMs come with trade-offs in terms of cost, limited API calls, credits and privacy. This is where Ollama comes in handy. It is a tool designed to run open-source LLMs locally with ease.
 
@@ -91,7 +92,7 @@ Once this is successfully pulled we can verify by listing it using below:
 
 Now let's run the model using:
 
-`ollama pull llama3.2`
+`ollama run llama3.2`
 
 ![image](https://github.com/user-attachments/assets/0783f8b5-e7f9-44d7-ab8a-df31710bd6b0)
 
