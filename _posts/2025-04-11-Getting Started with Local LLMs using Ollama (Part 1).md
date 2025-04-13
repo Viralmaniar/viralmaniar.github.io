@@ -134,5 +134,5 @@ Running local LLMs used to be a pain using tools like Ollama it is simple and po
 
 # Questions?
 
-Twitter: https://x.com/maniarviral <br>
-LinkedIn: https://au.linkedin.com/in/viralmaniar
+X / Twitter: [https://x.com/maniarviral](https://x.com/maniarviral) <br>
+LinkedIn: [https://au.linkedin.com/in/viralmaniar](https://au.linkedin.com/in/viralmaniar)
