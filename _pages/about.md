@@ -9,13 +9,15 @@ toc_sticky: true
 
 ## Who am I?
 
-I am a dedicated sr. security specialist in Australia with over 11 years of experience in information security and management. Prior to working for Cyware, I held senior positions at Microsoft, RiskIQ, Threat Intelligence, KPMG and Ernst & Young. I have provided security consulting services including infrastructure (internal - external), application penetration testing, vulnerability assessments, wireless penetration testing, social engineering, red team engagements, API testing, Thick & Thin client testing and cloud architecture security reviews to numerous clients across various industries in the APAC region.
+I am a passionate Senior Security Specialist based in Australia with over 14 years of hands-on experience in information security and risk management. My journey in cybersecurity has taken me through impactful roles at industry-leading organisations including Microsoft, RiskIQ, Cyware, KPMG, Ernst & Young, and most recently, UniSuper.
 
-I was involved with the RISC (RMIT Information Security Collective) Club while at University and worked as a Developer for firewall security at Biarri Networks where I developed a visualisation algorithm to solve the issue of firewall rules management.
+Throughout my career, I have delivered comprehensive security consulting services across the APJ region, covering a wide range of areas such as infrastructure (both internal and external), application and API penetration testing, wireless security assessments, social engineering, red teaming, thick/thin client testing, and cloud architecture security reviews. My work has spanned numerous industries allowing me to adapt and thrive in diverse environments.
 
-I have participated in a number of bug bounty programs and won awards for responsible disclosure of security vulnerabilities in web and mobile applications from companies such as Adobe, Apple, Google Chromium, IBM, C2FO, Blinksale, Appfog, TEDmed and many more. In my leisure time, I enjoy developing security tools and maintain a number of projects on GitHub. I have achieved industry certifications such as Offensive Security Certified Professional (OSCP) and SANS GPEN - Network Penetration Testing.
+During my university years, I was actively involved with the RMIT Information Security Collective (RISC) and worked as a developer at Biarri Networks. At Biarri, I contributed to firewall security developing a visualisation algorithm to simplify the complex challenge of firewall rule management.
 
-I feel blessed that I work in the security industry as there is always something new almost every day. No two engagements are the same and there's a lot to be learned while performing penetration testing, integration development, security automation and architecting a security project.
+Outside of professional engagements, I actively participate in bug bounty programs and have received recognition for responsible disclosure from prominent companies such as WSO2, Netskope, Adobe, Apple, Google Chromium, IBM, C2FO, Blinksale, Appfog, TEDmed, among others. I also enjoy building open-source security tools and maintain several projects on GitHub.
+
+I'm certified in Offensive Security (OSCP) and hold the SANS GPEN for network penetration testing. What I love most about working in cybersecurity is the constant evolution — every engagement is different and each challenge presents an opportunity to learn, innovate, and grow. Whether it’s penetration testing, security automation or developing integration strategies, I feel fortunate to be part of a field that keeps me intellectually engaged every day.
 
 ## What will I find on this blog?
 
@@ -41,7 +43,7 @@ I am active on number of social media platforms , however, you can connect via L
 > [https://www.linkedin.com/in/viralmaniar/](https://www.linkedin.com/in/viralmaniar/)
 
 > Tweet me here:
-> [https://twitter.com/ManiarViral](https://twitter.com/ManiarViral)
+> [https://x.com/ManiarViral](https://x.com/ManiarViral)
 
 ## Disclaimer
 
