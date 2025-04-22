@@ -9,7 +9,7 @@ toc_sticky: true
 ---
 ### **BlackHat USA 2023**: ThreatPatrol
 **Topic**: Blue Team, Threat Intelligence, Threat Management, Malware Defense, Network Defense <BR>
-**Links**: [Abstract](https://www.blackhat.com/us-23/arsenal/schedule/#threatpatrol-33440) | [Slides](https://github.com/Viralmaniar/ThreatPatrol/blob/main/BHUS23%20-%20Viral%20Maniar%20-%20ThreatPatrol%20-%20Protecting%20your%20Environment%20with%20Intelligence%20v0.8.pdf) | [Tool] (https://github.com/Viralmaniar/ThreatPatrol)
+**Links**: [Abstract](https://www.blackhat.com/us-23/arsenal/schedule/#threatpatrol-33440) | [Slides](https://github.com/Viralmaniar/ThreatPatrol/blob/main/BHUS23%20-%20Viral%20Maniar%20-%20ThreatPatrol%20-%20Protecting%20your%20Environment%20with%20Intelligence%20v0.8.pdf) | [Tool](https://github.com/Viralmaniar/ThreatPatrol)
 
 ### **RiskIQ - Threat Hunting Workshop**: In this Threat Hunting Workshop we investigated payment card skimmer Magecart ANT & Cockroach.
 **Topic**: Threat Intelligence, Threat Hunting, Attack Surface Management <BR>
