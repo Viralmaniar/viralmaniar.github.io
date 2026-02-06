@@ -77,8 +77,7 @@ Once attackers compromise the external perimeter and gain access to the internal
 With various malicious groups now using these services as communication channels, temporary storage or sharing, and various other sources being used to trade POC code, I thought it would be a good idea to have an easy tool to help organisations Blue and Red Teams to have a visibility into these sites via Google dorks.
 
 DDWPasteRecon tool will help you identify code leak, sensitive files, plaintext passwords, password hashes. It also allow member of SOC & Blue Team to gain situational awareness of the organisation's web exposure on the pastesites. It Utilises Google's indexing of pastesites to gain targeted intelligence of the organisation. Blue & SOC teams can collect and analyse data from these indexed pastesites to better protect against unknown threats.
-![DDWPasteRecon](/assets/images/tools/DDW.png)
-{: .align-center}
+![DDWPasteRecon](/assets/images/tools/DDW.png){: .align-center}
 
 ## ThreatPatrol
 ThreatPatrol is a powerful open-source SaaS tool that offers Blue Teams a wealth of information on potential threats, allowing them to gain situational awareness and perform threat hunting. The tool's flexibility is a significant advantage, as it can be hosted on the cloud or on an internal standalone machine, providing users with the convenience and customisation options they need. ThreatPatrol offers a comprehensive database of over 160 threat actor groups, indicators of compromise (IOCs), tactics, techniques, and procedures (TTPs), and their modus operandi out of the box. This information is regularly updated to ensure that users have access to the latest information on potential threats, providing insights into emerging threats and enabling proactive measures to prevent cyber-attacks.
