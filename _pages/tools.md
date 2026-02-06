@@ -85,5 +85,8 @@ ThreatPatrol is a powerful open-source SaaS tool that offers Blue Teams a wealth
 Cyber Defenders can add, update, or degrade TTPs and IOCs for their network and map them to the MITRE Framework, which can be visualised on the dashboard in graph form, and generate reports for sharing with executive members. By proactively collecting and analysing data on potential threats, cyber teams can improve their situational awareness, enabling them to take appropriate action to prevent or mitigate attacks.
 
 ThreatPatrol also provides feeds from over 100+ different sources, allowing organisations to stay up-to-date with the latest attack methods and trends, adjust their security posture, and protect themselves better against cyber threats. With improved situational awareness, organisations can respond more quickly and effectively when incidents occur, making ThreatPatrol an essential tool for protecting valuable data and avoiding the devastating consequences of a cyber-attack.
-![Phirautee](/assets/images/tools/tp.png)
-{: .align-center}
+![ThreatPatrol](/assets/images/tools/tp.png){: .align-center}
+
+## CloudSpecter
+CloudSpecter is a multi-cloud bucket reconnaissance and permission testing tool for AWS S3, Google Cloud Storage, and Azure Blob Storage. It detects publicly accessible or misconfigured buckets/containers by safely testing read and write permissions, making it ideal for red team operations and cloud security assessments.
+![CloudSpecter](/assets/images/tools/cs.png){: .align-center}
