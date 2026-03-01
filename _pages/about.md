@@ -23,6 +23,10 @@ I'm certified in Offensive Security (OSCP) and hold the SANS GPEN for network pe
 
 You'll find plenty of reference guides and material on various topics in the field of cyber security. I am in general attracted to almost anything in the field of cyber security but I'll mainly cover following topics:
 
+- Vibe Coding
+- Zero Day Hunting
+- Purple Team Engagements
+- AI Security
 - DevSecOps
 - Application Security
 - Internal Infrastructure Penetration Testing
