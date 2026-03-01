@@ -9,7 +9,7 @@ toc_sticky: true
 
 ## Who am I?
 
-I am a passionate Senior Security Specialist based in Australia with over 14 years of hands-on experience in information security and risk management. My journey in cybersecurity has taken me through impactful roles at industry-leading organisations including Microsoft, RiskIQ, Cyware, KPMG, Ernst & Young, and most recently, UniSuper.
+I am a passionate Senior Security Specialist based in Australia with over 14 years of hands-on experience in information security and risk management. My journey in cybersecurity has taken me through impactful roles at industry-leading organisations including Microsoft, RiskIQ, Cyware, KPMG, Ernst & Young, and most recently, UniSuper. Preemptive Cybersecurity
 
 Throughout my career, I have delivered comprehensive security consulting services across the APJ region, covering a wide range of areas such as infrastructure (both internal and external), application and API penetration testing, wireless security assessments, social engineering, red teaming, thick/thin client testing, and cloud architecture security reviews. My work has spanned numerous industries allowing me to adapt and thrive in diverse environments.
 
